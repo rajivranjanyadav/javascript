@@ -14,6 +14,11 @@
 // console.log(typeof valueInNumber);
 // console.log(valueInNumber);// NaN means not a number
 
-let isloggedIn=0
-let booleanvalue=Boolean(isloggedIn)
-console.log(booleanvalue);
+// let isloggedIn=0
+// let booleanvalue=Boolean(isloggedIn)
+// console.log(booleanvalue);
+
+let score = function(){
+    name:"Rajiv"
+}
+console.log(typeof score);
