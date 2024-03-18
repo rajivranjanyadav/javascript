@@ -18,7 +18,32 @@
 // let booleanvalue=Boolean(isloggedIn)
 // console.log(booleanvalue);
 
-let score = function(){
-    name:"Rajiv"
-}
-console.log(typeof score);
+// let score = function(){
+//     name:"Rajiv"
+// }
+// console.log(typeof score);
+
+
+// const score=400
+
+// console.log(score);
+// const balance=new Number(200)
+
+// console.log(balance.toString());
+
+//const num=10000000000
+// console.log(num.toString().length);
+// console.log(num.toPrecision(6));
+
+//console.log(num.toLocaleString());
+
+//console.log(Math.abs(-4));
+
+// const  number=1234.432
+// console.log(Math.floor(Math.random()*10) + 1);
+
+
+const min=10
+const max=20
+
+console.log(Math.floor(Math.random()*(max-min +1))+min);
