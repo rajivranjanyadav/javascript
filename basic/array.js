@@ -27,12 +27,26 @@
 // console.log("C ", myarr);
 // console.log(myn2);
 
-const arr=["Rakesh", "Mukesh", "sujit", "Ranjesh"]
+// const arr=["Rakesh", "Mukesh", "sujit", "Ranjesh"]
+// console.log(arr);
 
-const arr2=arr.slice(1,3)
-arr.splice(2,0,"Rajiv","Sanjeev")
+// const arr2=arr.slice(1,3)
+// console.log(arr2);
+// const arr3=arr.splice(1,3)
+// console.log(arr);
+// console.log(arr3);
 
 
+// const s=[1,2,3,4,5,6,7]
 
-console.log(arr);
-console.log(arr2);
+// console.log("A", s);
+
+// const s1=s.splice(1,3)
+// console.log(s);
+// console.log(s1);
+
+const first_arra=["Rajiv","Ranjesh","Sanjeev"]
+const second_arra=["Nitsh","vicky","Sumit"]
+
+const third_arry=first_arra.concat(second_arra)
+console.log(third_arry);
