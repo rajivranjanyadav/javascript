@@ -45,8 +45,22 @@
 // console.log(s);
 // console.log(s1);
 
-const first_arra=["Rajiv","Ranjesh","Sanjeev"]
-const second_arra=["Nitsh","vicky","Sumit"]
+// const first_arra=["Rajiv","Ranjesh","Sanjeev"]
+// const second_arra=["Nitsh","vicky","Sumit"]
 
-const third_arry=first_arra.concat(second_arra)
-console.log(third_arry);
+// const third_arry=first_arra.concat(second_arra)
+// console.log(third_arry);
+
+// const new_array=[1,2,3,[4,5,6,[7,8,9,10,[11,12,13,14,156]]]]
+// const new_array2=new_array.flat(Infinity)
+// console.log(new_array2);
+
+//console.log(Array.from("Rajiv"));
+// const arr_new= {Rajiv}
+// console.log(Array.from(arr_new));
+
+let score1=100
+let score2=200
+let score3=300
+
+console.log(Array.of(score1,score2,score3));
